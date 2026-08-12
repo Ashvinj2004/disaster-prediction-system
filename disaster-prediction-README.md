@@ -176,24 +176,6 @@ A companion Android app (`weather_report.apk`) built in **MIT App Inventor** pro
 - [ ] Expand sensor suite (barometric pressure, rainfall, seismic)
 - [ ] Deploy multi-node mesh network for wider area coverage
 
----
-
-## 👥 Team & Credits
-
-Team of 6 · Department of Computer Science and Engineering · VIT-AP University
-
-- **Ashvin Jaison Olickal** (23BCE8207)
-- Shivadev Manjokumar (23BCE8228)
-- K J Aswanth (23MIC7098)
-- Savio S Saaj (23MIC7183)
-- Kasthuri Rejith M (23MIC7050)
-- Devananda Rajeev (23MIS7185)
-
-**Guided by:** Prof. Virendra Kumar Verma, VIT-AP University
-
-**My contribution:** Contributed across the full stack — sensor integration, ML pipeline, cloud connectivity, and app-side data flow.
-
----
 
 ## 📚 References
 
@@ -213,4 +195,3 @@ B.Tech Computer Science · VIT-AP University · Class of 2027
 
 ---
 
-*This project was submitted for CSE Engineering Clinics (3rd Semester, 2024–25) and received an S grade.*
