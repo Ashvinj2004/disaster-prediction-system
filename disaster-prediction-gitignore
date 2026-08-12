@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Model checkpoints & large files
+*.pkl
+*.h5
+*.pth
+
+# Sensitive info (API keys go in .env, never in code)
+.env
+config.local.py
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Raspberry Pi specific
+*.swp
+*.swo
