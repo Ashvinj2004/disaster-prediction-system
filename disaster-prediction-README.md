@@ -1,4 +1,4 @@
-# 🌦️ Raspberry Pi Weather Station with Disaster Prediction
+# Raspberry Pi Weather Station with Disaster Prediction
 
 **An IoT-based climate monitoring system that fuses local sensor data with global weather APIs and predicts climate-related disasters using machine learning — designed for affordability and rural deployment.**
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 What This Project Does
+## What This Project Does
 
 Traditional weather stations are expensive, sparsely deployed, and rarely provide **disaster warnings** to the communities that need them most. This project addresses that gap.
 
@@ -47,7 +47,7 @@ OpenWeatherMap API · `Adafruit_DHT` · `RPi.GPIO` · `gpiozero`
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌────────────────┐
@@ -71,7 +71,7 @@ OpenWeatherMap API · `Adafruit_DHT` · `RPi.GPIO` · `gpiozero`
 
 ---
 
-## 🔬 Machine Learning Approach
+## Machine Learning Approach
 
 **Model:** K-Nearest Neighbors classifier (`k=4`)
 **Features:** temperature, humidity, LDR value, wind speed
@@ -82,10 +82,10 @@ OpenWeatherMap API · `Adafruit_DHT` · `RPi.GPIO` · `gpiozero`
 
 | Condition | Prediction |
 |---|---|
-| Humidity > 90% AND Temp < 25°C | 🌊 Flood Risk |
-| Humidity < 30% | 🏜️ Drought Risk |
-| Wind speed > 60 km/h | 🌀 Cyclone Risk |
-| Otherwise | ✅ Normal |
+| Humidity > 90% AND Temp < 25°C | Flood Risk |
+| Humidity < 30% | Drought Risk |
+| Wind speed > 60 km/h | Cyclone Risk |
+| Otherwise | Normal |
 
 Performance was evaluated using a confusion matrix across the classification categories (see project report).
 
@@ -93,7 +93,7 @@ Performance was evaluated using a confusion matrix across the classification cat
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 disaster-prediction-system/
@@ -118,7 +118,7 @@ disaster-prediction-system/
 
 ---
 
-## ⚙️ How It Works (Runtime)
+## How It Works (Runtime)
 
 1. Raspberry Pi boots and initializes GPIO pins, LCD, and sensors
 2. Displays "WELCOME" on LCD
@@ -136,7 +136,7 @@ disaster-prediction-system/
 
 ---
 
-## 📱 Android App
+## Android App
 
 A companion Android app (`weather_report.apk`) built in **MIT App Inventor** provides:
 - Real-time weather data pulled from ThingSpeak
@@ -147,21 +147,21 @@ A companion Android app (`weather_report.apk`) built in **MIT App Inventor** pro
 
 ---
 
-## 💡 Why This Project Matters
+## Why This Project Matters
 
 **The problem:** Rural and underserved communities in disaster-prone regions of India lack access to real-time weather monitoring. Government stations are sparse; commercial IoT weather solutions cost lakhs of rupees.
 
 **Our contribution:** A **₹4,500 open-source alternative** that combines local sensing, cloud storage, ML-based prediction, and mobile alerts — deployable by anyone with basic electronics knowledge.
 
 **Real applications:**
-- 🌾 **Agriculture** — irrigation planning, crop protection
-- 🚨 **Disaster preparedness** — early flood/cyclone alerts for at-risk villages
-- 📊 **Climate research** — long-term microclimate data collection
-- 🏫 **Educational** — hands-on IoT + ML teaching tool
+-  **Agriculture** — irrigation planning, crop protection
+-  **Disaster preparedness** — early flood/cyclone alerts for at-risk villages
+-  **Climate research** — long-term microclimate data collection
+-  **Educational** — hands-on IoT + ML teaching tool
 
 ---
 
-## 🚧 Known Limitations & Future Work
+##  Known Limitations & Future Work
 
 **Honest limitations of the current system:**
 - Training dataset (`Data1.csv`) was relatively small and lost after the project concluded — model would benefit from retraining on a larger, region-specific corpus
@@ -177,7 +177,7 @@ A companion Android app (`weather_report.apk`) built in **MIT App Inventor** pro
 - [ ] Deploy multi-node mesh network for wider area coverage
 
 
-## 📚 References
+##  References
 
 1. *Modular Weather and Environment Monitoring Systems using Raspberry Pi*, IJERT Vol. 3 Issue 9, 2014
 2. *Low-Cost Controller-Based Weather Monitoring System*, CMA Journal, 2006
@@ -186,7 +186,7 @@ A companion Android app (`weather_report.apk`) built in **MIT App Inventor** pro
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ashvin Jaison Olickal**
 B.Tech Computer Science · VIT-AP University · Class of 2027
